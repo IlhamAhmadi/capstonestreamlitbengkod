@@ -1,5 +1,6 @@
-numpy==1.26.4
-pandas==1.5.3
-streamlit
-pickle
-pip==24.1.2
+numpy>=1.26,<2.0 --only-binary :all:
+pandas>=1.5,<2.0 --only-binary :all:
+streamlit==1.25.0
+scikit-learn
+matplotlib
+seaborn
