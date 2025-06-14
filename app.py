@@ -10,7 +10,7 @@ st.title("Prediksi Tingkat Obesitas")
 st.markdown("Masukkan data berikut untuk memprediksi tingkat obesitas berdasarkan kebiasaan harian Anda.")
 
 try:
-    with open("model.pkl", "rb") as f:
+    with open("model_bagus.pkl", "rb") as f:
         model = pickle.load(f)
 except Exception as e:
     st.error("Gagal memuat model. Pastikan file model.pkl ada di folder yang sama.")
