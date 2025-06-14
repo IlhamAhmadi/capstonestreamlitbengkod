@@ -2,3 +2,4 @@ numpy==2.0.2
 pandas==2.2.2
 streamlit
 pip==24.1.2
+scikit_learn
