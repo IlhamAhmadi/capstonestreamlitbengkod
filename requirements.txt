@@ -1,5 +1,5 @@
-numpy==1.26.4 --only-binary :all:
-pandas==1.5.3 --only-binary :all:
+numpy==1.26.4
+pandas==1.5.3
 streamlit
 scikit-learn
 pip==24.1.2
